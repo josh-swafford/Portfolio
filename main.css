@@ -1,0 +1,96 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    color: #ffffff;
+    font-family: "Raleway", sans-serif;
+}
+@keyframes font{
+    from {font-size: 20px;}
+    to {font-size: 22px;}
+}
+@keyframes smallFont {
+    from {font-size: 22px;}
+    to {font-size: 20px;}
+}
+#background {
+    background-image: url("images/IMG_8945.JPG");
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-size: cover;
+    background-position: 50% 50%;
+    margin: 0 auto;
+    clear: both;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    -moz-transform: scaleY(-1);
+    -o-transform: scaleY(-1);
+    -webkit-transform: scaleY(-1);
+    transform: scaleY(-1);
+    -ms-filter: "FlipV";
+    z-index: -1;
+}
+
+.centerbox{
+    width: 90%;
+    margin: 0 auto;
+}
+.header {
+    position: static;
+    width: 100%;
+    padding: 10px;
+    border-bottom: 1px solid white;
+    overflow: hidden;
+    z-index: 1;
+    padding-bottom: 11px;
+    max-height: 46px;
+}
+.logo {
+    float: left;
+    font-size: 20px;
+}
+
+.nav{
+    float: right;
+}
+
+.nav a {
+    color: #ffffff;
+    padding-left: 20px;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    animation-name: underline;
+    -webkit-animation-duration: 1s;
+    -moz-animation-duration: 1s;
+    -o-animation-duration: 1s;
+    animation-duration: 1s;
+}
+
+a:active {
+
+}
+
+.rightSection {
+    float: right;
+    padding-top: 300px;
+    padding-right: 220px;
+}
+.footer {
+    width: 100%;
+    background-color: black;
+    opacity: .7;
+    padding: 15px 0;
+    position: absolute;
+    bottom: 0;
+    overflow: hidden;
+}
+.copyright {
+    float: right;
+}
+
