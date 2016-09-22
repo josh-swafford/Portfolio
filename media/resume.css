@@ -65,9 +65,10 @@ a:hover {
     padding: 15px 0;
     overflow: hidden;
 }
-#scroll {
-    padding-top: 605px;
-    margin: 0 50%;
+#scroll{
+    position: absolute;
+    bottom: 50px;
+    margin: auto 50%;
 }
 .copyright{
     float: right;
