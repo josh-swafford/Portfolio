@@ -7,7 +7,7 @@ body, html {
 }
 
 #background {
-    background-image: url("../images/IMG_8945.JPG");
+    background-image: url("../images/alaska.jpg");
     top: 0;
     right: 0;
     bottom: 0;
@@ -17,7 +17,6 @@ body, html {
     position: absolute;
     height: 100%;
     width: 100%;
-    transform: scaleY(-1);
     z-index: -1;
     background-position: 50% 50%;
     margin: 0 auto;
@@ -57,10 +56,6 @@ a:hover {
     width: 90%;
     margin: 0 auto;
 }
-#scroll {
-    padding-top: 605px;
-    margin: 0 50%;
-}
 .footer {
     width: 100%;
     background-color: black;
@@ -70,11 +65,10 @@ a:hover {
     padding: 15px 0;
     overflow: hidden;
 }
+#scroll {
+    padding-top: 605px;
+    margin: 0 50%;
+}
 .copyright{
     float: right;
 }
-/*@media screen and (min-width: 480px) {*/
-    /*body {*/
-        /*background-color: lightgreen;*/
-    /*}*/
-/*}*/

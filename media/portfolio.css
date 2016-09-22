@@ -7,7 +7,7 @@ body, html {
 }
 
 #background {
-    background-image: url("../images/IMG_8945.JPG");
+    background-image: url("../images/canada.jpg");
     top: 0;
     right: 0;
     bottom: 0;
@@ -17,7 +17,6 @@ body, html {
     position: absolute;
     height: 100%;
     width: 100%;
-    transform: scaleY(-1);
     z-index: -1;
     background-position: 50% 50%;
     margin: 0 auto;
@@ -57,24 +56,33 @@ a:hover {
     width: 90%;
     margin: 0 auto;
 }
-#scroll {
-    padding-top: 605px;
-    margin: 0 50%;
-}
 .footer {
     width: 100%;
     background-color: black;
     opacity: 0.7;
-    position: absolute;
+    position: fixed;
     bottom: 0;
     padding: 15px 0;
     overflow: hidden;
 }
+#scroll{
+    padding-top: 605px;
+    margin: 0 50%;
+}
 .copyright{
     float: right;
 }
+#content{
+    height: 5000px;
+}
+
+
+.item1{
+    width: 25%;
+    height: 100px;
+}
 /*@media screen and (min-width: 480px) {*/
-    /*body {*/
-        /*background-color: lightgreen;*/
-    /*}*/
+/*body {*/
+/*background-color: lightgreen;*/
+/*}*/
 /*}*/
