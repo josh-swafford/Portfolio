@@ -74,16 +74,29 @@ a:hover {
     float: right;
 }
 #content{
-    height: 5000px;
+    text-align: center;
+    height: 500px;
+    margin-top: 1000px;
 }
 
-
-.item1{
+.item1, .item2, .item3 {
+    border: 1px solid black;
+    text-align: center;
     width: 25%;
-    height: 100px;
+    height: auto;
+    float: right;
+    margin-right: 5%;
+    padding: 5px;
 }
-/*@media screen and (min-width: 480px) {*/
-/*body {*/
-/*background-color: lightgreen;*/
-/*}*/
-/*}*/
+img {
+    width: 75%;
+    height: 75%;
+}
+.descript{
+    color: black;
+}
+@media screen and (min-width: 480px) {
+    #content{
+      margin-top: 900px;
+    }
+}

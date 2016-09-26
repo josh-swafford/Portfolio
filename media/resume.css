@@ -56,6 +56,11 @@ a:hover {
     width: 90%;
     margin: 0 auto;
 }
+.content{
+    color: black;
+    text-align: center;
+    margin: 75% auto 0 auto;
+}
 .footer {
     width: 100%;
     background-color: black;

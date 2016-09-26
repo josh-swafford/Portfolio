@@ -57,10 +57,7 @@ a:hover {
     width: 90%;
     margin: 0 auto;
 }
-#scroll {
-    padding-top: 605px;
-    margin: 0 50%;
-}
+
 .footer {
     width: 100%;
     background-color: black;
@@ -73,8 +70,16 @@ a:hover {
 .copyright{
     float: right;
 }
-/*@media screen and (min-width: 480px) {*/
-    /*body {*/
-        /*background-color: lightgreen;*/
-    /*}*/
-/*}*/
+
+#scroll{
+    position: absolute;
+    bottom: 50px;
+    margin: 0 50%;
+}
+
+#content{
+    color: black;
+    text-align: center;
+    height: 500px;
+    margin-top: 75%;
+}
